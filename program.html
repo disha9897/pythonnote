@@ -1,0 +1,71 @@
+
+<html>
+ <head>
+ <title>Python Programs</title>
+ </head>
+ <body>
+ <center><h2>Some Python Programs</h2></center>
+ <h4>Q1. Python Program to Add two numbers.</h4>
+ <h5>x=input('Ist no: ') <br/> y=input('IIst no: ') <br/> sum=int(x)+int(y) <br/> print("Sum= ",sum)</h5>
+ <p>Output:-</p>
+ <h5>Ist no: 10 <br/> IIst no: 20 <br/> Sum=  30</h5>
+
+ <h4>Q2. Python program to calculate the Area of circle.</h4>
+ <h5>r=float(input("Enter thr Radius of Circle: ")) <br/> area=3.14*r*r <br/> print("Area of Circle: ",area) <br/> print('\n')</h5>
+ <p>Output:-</p>
+ <h5>Enter thr Radius of Circle: 4 <br/> Area of Circle:  50.24</h5>
+
+ <h4>Q3. Python program to Find the Volume of Cuboid.</h4>
+ <h5>L=float(input("Enter Length: ")) <br/> B=float(input("Enter Breadth: ")) <br/> H=float(input("Enter Height: ")) <br/> volume=L*B*H
+     <br/> print("Volume of Cuboid: ",volume)</h5>
+ <p>Output:-</p>
+ <h5>Enter Length: 5 <br/> Enter Breadth: 6 <br/> Enter Height: 7 <br/> Volume of Cuboid:  210.0</h5>
+
+ <h4>Q4. Python program to calculate the Area of Rectangle.</h4>
+ <h5>b=int(input("Enter Base: ")) <br/> h=int(input("Enter Height: ")) <br/> ar=(b*h)/2 <br/> print("Area of Triangle: ",ar)</h5>
+ <p>Output:-</p>
+ <h5>Enter Base: 8 <br/> Enter Height: 10 <br/> Area of Triangle:  40.0</h5>
+
+ <h4>Q5. WAP to check whether entered character is an Alphabar or not using if-else.</h4>
+ <h5>ch=input('Type a Character: ') <br/> if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')): <br/> print(ch, 'is an Alphanat') <br/>
+ else: <br/> print(ch, 'is not an Alphanat')</h5>
+ <p>Output:-</p>
+ <h5>Type a Character: 5 <br/> 5 is not an Alphanat</h5>
+ <h5>Type a Character: k <br/> k is an Alphanat</h5>
+
+ <h4>Q6. WAP to display Date & Time.</h4>
+ <h5>import sys; <br/> import datetime; <br/> d1=datetime.datetime.now(); <br/> print(d1); <br> print(d1.strftime("%Y/ %m/%d  %H:%M:%S")); <br/> 
+      print(sys.version); <br> print(sys.version_info);</h5>
+ <p>Output:-</p>
+ <h5>2020-12-02 19:33:18.120464 <br/> 2020/ 12/02  19:33:18  40.0</h5>
+
+  <h4>Q7. Program to check whether a entered year is leap year or not.</h4>
+  <h5>x=int(input("Enter a year: ")) <br/> if(x%100==0): <br/> if(x%400==0): <br> print(x,"year is leap year") <br> else: <br/> print(x,"year is not a leap year")
+      else: <br/> if(x%4==0): <br/> print(x,"year is leap year") <br/> else: <br/> print(x,"year is not a leap year")</h5>
+  <p>Output:-</p>
+  <h5>Enter a year: 1998 <br/> 1998 year is not a leap year</h5>
+  <h5>Enter a year: 2000 <br/> 2000 year is leap year</h5>
+
+ <h4>Q8. WAP to check whether a given number is Palindrome or Not using while loop.</h4>
+ <h5>num=int(input('Enter any Number: ')) <br/> temp=num <br/> rev=0 <br/>nwhile(temp>0): <br/> Reminder=temp%10 <br/> rev=(rev*10)+Reminder <br/> temp=temp//10
+    print('Reverse of a given no. is= ',rev) <br> if(num==rev): <br/> print('Entered number is Palindrome') <br/> else: <br/> print('Entered number is Not Palindrome')</h5>
+ <p>Output:-</p>
+ <h5>Enter any Number: 256 <br/> Reverse of a given no. is=  652 <br/> Entered number is Not Palindrome</h5>
+ <h5>Enter any Number: 262 <br/> Reverse of a given no. is=  262 <br/> Entered number is Palindrome</h5>
+
+ <h4>Q9. WAP to check whether entered character is Vowel or Consonent.</h4>
+ <h5>ch=input('Type a Character: ') <br/> if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')): <br/>
+     if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u' or ch=='A' or ch=='E' or ch=='I' or ch=='O' or ch=='U'): <br/>
+     print(ch, 'is a Vowel') <br/> else: <br/> print(ch, 'is a Consonent') <br/> else: <br/> print(ch, 'is not an Alphanat')</h5>
+ <p>Output:-</p>
+ <h5>Type a Character: d <br> d is a Consonent</h5>
+ <h5>Type a Character: E <br/> E is a Vowel</h5>
+ <h5>Type a Character: 96 <br/> 96 is not an Alphanat</h5>
+
+ <h4>Q10.WAP to find Greatest among Two.</h4>
+ <h5>x=int(input("Enter Ist no: ")) <br/> y=int(input("Enter IInd no: ")) <br/> largest= x if(x>y) else y <br/> print("Greatest no.: ",largest)</h5>
+ <p>Output:-</p>
+ <h5>Enter Ist no: 78 <br/> Enter IInd no: 58 <br/> Greatest no.:  78</h5>
+
+ </body>
+</html>
